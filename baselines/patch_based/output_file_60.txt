@@ -1,0 +1,91 @@
+TRAINING with 60% Dropout Rate
+
+Using GPU
+Using GPU
+Load train data:  6870
+Load valid data:  1218
+Load test data:  3148
+
+Epoch: 1/10
+Batch number: 000, Training: Loss: 0.7452, Accuracy: 0.3438, F1: 0.2222, ROC-AUC: 0.3438
+Batch number: 100, Training: Loss: 0.3299, Accuracy: 0.8605, F1: 0.8657, ROC-AUC: 0.8573
+Batch number: 200, Training: Loss: 0.2863, Accuracy: 0.8790, F1: 0.8845, ROC-AUC: 0.8776
+Validation Batch number: 214, Validation: Loss: 0.1067, Accuracy: 1.0000, F1: 1.0000, ROC-AUC: 1.0000
+ROC-AUC ValueError
+Epoch : 000, Training: Loss: 0.2848, Accuracy: 88.0640%, F1: 0.8863, ROC-AUC: 0.8794
+ Validation : Loss : 0.1827, Accuracy: 92.8571%, F1: 0.9264, ROC-AUC: 0.9297, Time: 23.4403s
+
+Epoch: 2/10
+Batch number: 000, Training: Loss: 0.1080, Accuracy: 0.9375, F1: 0.9333, ROC-AUC: 0.9373
+Batch number: 100, Training: Loss: 0.2166, Accuracy: 0.9131, F1: 0.9191, ROC-AUC: 0.9125
+Batch number: 200, Training: Loss: 0.2137, Accuracy: 0.9148, F1: 0.9206, ROC-AUC: 0.9145
+Validation Batch number: 214, Validation: Loss: 0.2692, Accuracy: 0.8750, F1: 0.8667, ROC-AUC: 0.8824
+Epoch : 001, Training: Loss: 0.2122, Accuracy: 91.4847%, F1: 0.9207, ROC-AUC: 0.9146
+ Validation : Loss : 0.1697, Accuracy: 93.1034%, F1: 0.9285, ROC-AUC: 0.9331, Time: 23.4137s
+
+Epoch: 3/10
+Batch number: 000, Training: Loss: 0.0983, Accuracy: 0.9688, F1: 0.9730, ROC-AUC: 0.9643
+Batch number: 100, Training: Loss: 0.1855, Accuracy: 0.9257, F1: 0.9320, ROC-AUC: 0.9259
+Batch number: 200, Training: Loss: 0.1845, Accuracy: 0.9229, F1: 0.9279, ROC-AUC: 0.9230
+Validation Batch number: 214, Validation: Loss: 0.1224, Accuracy: 0.9375, F1: 0.9412, ROC-AUC: 0.9375
+Epoch : 002, Training: Loss: 0.1866, Accuracy: 92.2125%, F1: 0.9271, ROC-AUC: 0.9221
+ Validation : Loss : 0.1730, Accuracy: 92.9392%, F1: 0.9240, ROC-AUC: 0.9300, Time: 23.4686s
+
+Epoch: 4/10
+Batch number: 000, Training: Loss: 0.1182, Accuracy: 0.9375, F1: 0.9474, ROC-AUC: 0.9500
+Batch number: 100, Training: Loss: 0.1683, Accuracy: 0.9301, F1: 0.9345, ROC-AUC: 0.9304
+Batch number: 200, Training: Loss: 0.1783, Accuracy: 0.9277, F1: 0.9325, ROC-AUC: 0.9277
+Validation Batch number: 214, Validation: Loss: 0.1603, Accuracy: 0.9375, F1: 0.9565, ROC-AUC: 0.9583
+ROC-AUC ValueError
+Epoch : 003, Training: Loss: 0.1813, Accuracy: 92.7802%, F1: 0.9327, ROC-AUC: 0.9279
+ Validation : Loss : 0.1662, Accuracy: 92.4466%, F1: 0.9175, ROC-AUC: 0.9227, Time: 23.3695s
+
+Epoch: 5/10
+Batch number: 000, Training: Loss: 0.1061, Accuracy: 1.0000, F1: 1.0000, ROC-AUC: 1.0000
+Batch number: 100, Training: Loss: 0.1743, Accuracy: 0.9325, F1: 0.9369, ROC-AUC: 0.9308
+Batch number: 200, Training: Loss: 0.1744, Accuracy: 0.9283, F1: 0.9340, ROC-AUC: 0.9274
+Validation Batch number: 214, Validation: Loss: 0.1021, Accuracy: 0.9375, F1: 0.9375, ROC-AUC: 0.9375
+Epoch : 004, Training: Loss: 0.1741, Accuracy: 92.9112%, F1: 0.9344, ROC-AUC: 0.9283
+ Validation : Loss : 0.1576, Accuracy: 92.7750%, F1: 0.9250, ROC-AUC: 0.9284, Time: 23.4222s
+
+Epoch: 6/10
+Batch number: 000, Training: Loss: 0.2036, Accuracy: 0.9062, F1: 0.9091, ROC-AUC: 0.9118
+Batch number: 100, Training: Loss: 0.1675, Accuracy: 0.9338, F1: 0.9387, ROC-AUC: 0.9336
+Batch number: 200, Training: Loss: 0.1718, Accuracy: 0.9322, F1: 0.9366, ROC-AUC: 0.9313
+Validation Batch number: 214, Validation: Loss: 0.0812, Accuracy: 0.9688, F1: 0.9714, ROC-AUC: 0.9722
+Epoch : 005, Training: Loss: 0.1725, Accuracy: 93.2751%, F1: 0.9370, ROC-AUC: 0.9317
+ Validation : Loss : 0.1549, Accuracy: 92.6108%, F1: 0.9225, ROC-AUC: 0.9266, Time: 23.2931s
+
+Epoch: 7/10
+Batch number: 000, Training: Loss: 0.0841, Accuracy: 0.9375, F1: 0.9375, ROC-AUC: 0.9412
+Batch number: 100, Training: Loss: 0.1545, Accuracy: 0.9375, F1: 0.9432, ROC-AUC: 0.9368
+Batch number: 200, Training: Loss: 0.1534, Accuracy: 0.9392, F1: 0.9443, ROC-AUC: 0.9388
+Validation Batch number: 214, Validation: Loss: 0.2039, Accuracy: 0.8750, F1: 0.8571, ROC-AUC: 0.8750
+ROC-AUC ValueError
+Epoch : 006, Training: Loss: 0.1557, Accuracy: 93.9592%, F1: 0.9448, ROC-AUC: 0.9394
+ Validation : Loss : 0.1454, Accuracy: 94.2529%, F1: 0.9416, ROC-AUC: 0.9429, Time: 23.3870s
+
+Epoch: 8/10
+Batch number: 000, Training: Loss: 0.1307, Accuracy: 0.9062, F1: 0.9189, ROC-AUC: 0.9250
+Batch number: 100, Training: Loss: 0.1633, Accuracy: 0.9316, F1: 0.9378, ROC-AUC: 0.9308
+Batch number: 200, Training: Loss: 0.1614, Accuracy: 0.9347, F1: 0.9402, ROC-AUC: 0.9344
+Validation Batch number: 214, Validation: Loss: 0.0622, Accuracy: 0.9688, F1: 0.9697, ROC-AUC: 0.9688
+Epoch : 007, Training: Loss: 0.1595, Accuracy: 93.5080%, F1: 0.9406, ROC-AUC: 0.9346
+ Validation : Loss : 0.1455, Accuracy: 93.7603%, F1: 0.9368, ROC-AUC: 0.9393, Time: 23.3147s
+
+Epoch: 9/10
+Batch number: 000, Training: Loss: 0.0779, Accuracy: 0.9688, F1: 0.9697, ROC-AUC: 0.9688
+Batch number: 100, Training: Loss: 0.1620, Accuracy: 0.9353, F1: 0.9389, ROC-AUC: 0.9351
+Batch number: 200, Training: Loss: 0.1592, Accuracy: 0.9358, F1: 0.9411, ROC-AUC: 0.9352
+Validation Batch number: 214, Validation: Loss: 0.0748, Accuracy: 0.9688, F1: 0.9524, ROC-AUC: 0.9773
+ROC-AUC ValueError
+Epoch : 008, Training: Loss: 0.1590, Accuracy: 93.5371%, F1: 0.9407, ROC-AUC: 0.9350
+ Validation : Loss : 0.1456, Accuracy: 93.9245%, F1: 0.9375, ROC-AUC: 0.9362, Time: 23.1716s
+
+Epoch: 10/10
+Batch number: 000, Training: Loss: 0.0855, Accuracy: 0.9375, F1: 0.9474, ROC-AUC: 0.9352
+Batch number: 100, Training: Loss: 0.1564, Accuracy: 0.9387, F1: 0.9420, ROC-AUC: 0.9379
+Batch number: 200, Training: Loss: 0.1595, Accuracy: 0.9359, F1: 0.9404, ROC-AUC: 0.9340
+Validation Batch number: 214, Validation: Loss: 0.1267, Accuracy: 1.0000, F1: 1.0000, ROC-AUC: 1.0000
+Epoch : 009, Training: Loss: 0.1571, Accuracy: 93.6536%, F1: 0.9408, ROC-AUC: 0.9347
+ Validation : Loss : 0.1330, Accuracy: 94.9097%, F1: 0.9465, ROC-AUC: 0.9482, Time: 23.2036s
